@@ -1,0 +1,45 @@
+{
+  "name": "@vuenice/split-modal",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": {
+    ".": {
+      "import": "./src/index.js"
+    }
+  },
+  "files": [
+    "src"
+  ],
+  "description": "Vue 3 Split Modal component",
+  "homepage": "https://github.com/vuenice/split-modal",
+  "keywords": [
+    "vuenice",
+    "split modal",
+    "split-modal"
+  ],
+  "author": "Yogesh Galav <mr.yogesh.galav@gmail.com> (https://github.com/yogeshgalav/)",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vuenice/split-modal"
+  },
+  "bugs": {
+    "url": "https://github.com/vuenice/split-modal/issues"
+  },
+  "scripts": {
+    "test": "vitest",
+    "test:run": "vitest run",
+    "coverage": "vitest run --coverage"
+  },
+  "peerDependencies": {
+    "vue": "^3.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.0",
+    "@vue/test-utils": "^2.4.6",
+    "jsdom": "^24.0.0",
+    "vitest": "^1.6.0",
+    "vite": "^5.0.0"
+  }
+}
